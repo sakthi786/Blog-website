@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shark Restaurant</title>
+    <!-- Linking Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Linking Swiper Css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="rest.css">
+</head>
+
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">🦈 Restaurant</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contacts</a>
+                </li>
+            </ul>
+
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section -->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Best Seafoods</h2>
+                    <h3 class="subtitle">Where Taste Meets the Ocean</h3>
+                    <p class="description">At Shark,we serve up a dynamic menu inspired by the sea and beyond.From fresh
+                        seafood to sizzling grills and flavorful vegetarian options, every dish is crafted with care.
+                    </p>
+                    <div class="buttons">
+                        <a href="#" class="button order-now">Order Now</a>
+                        <a href="#contact" class="button contact-us">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="assets/menu.png" alt="" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="abount-image-wrapper">
+                    <img src="assets/customer-happy2.png" alt="" class="about-image">
+                </div>
+                <div class="abount-details">
+                    <h2 class="section-title">About us</h2>
+                    <p class="text">At Shark, we bring the taste of the ocean to your table with a wide variety of
+                        freshly prepared seafood dishes, crafted with passion and care. Located in the vibrant heart of
+                        Tenkasi, our restaurant is the perfect destination for seafood lovers who seek authentic
+                        flavors, high-quality ingredients, and a warm, welcoming atmosphere.</p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"> <i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"> <i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"> <i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu section -->
+        <section class="menu-section" id="menu">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="assets/grill.jpg" alt="Hot Grill" class="menu-image">
+                        <h3 class="name">Hot Crab Grill</h3>
+                        <p class="text">Boldly spiced, perfectly grilled, and bursting with ocean-fresh flavor.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="assets/prawns.jpg" alt="Tasty prawns" class="menu-image">
+                        <h3 class="name">Tasty prawns</h3>
+                        <p class="text">Juicy, tender, and tossed in our signature spices for the perfect bite.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="assets/shrimps.jpg" alt="spice shrimps" class="menu-image">
+                        <h3 class="name">spice shrimps</h3>
+                        <p class="text">Fiery, flavorful, and cooked to perfection with a kick of bold spices.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="assets/meal.jpg" alt="premium meal" class="menu-image">
+                        <h3 class="name">Premium Meal</h3>
+                        <p class="text"> A deluxe seafood experience with rich flavors, fresh ingredients, and
+                            satisfying portions.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="assets/fried-prawns-cheese.jpg" alt="Fried-Prawns-Cheese" class="menu-image">
+                        <h3 class="name">Fried-Prawns-Cheese</h3>
+                        <p class="text">Crispy golden prawns topped with a rich, creamy cheese layer for a mouthwatering
+                            twist.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="assets/snakehead-fish.jpg" alt="snakehead-fish-hot-pot-thai-food" class="menu-image">
+                        <h3 class="name">Snakehead-fish-Thai-food</h3>
+                        <p class="text"> A Thai-style delicacy simmered in a spicy, aromatic broth for a bold and
+                            comforting seafood feast.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Testimonials section -->
+        <section class="testimonials-section" id="testimonials">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
+                                <img src="image/user1.jpg" alt="User" class="user-image">
+                                <h3 class="name">Emily Carter</h3>
+                                <i class="feedback">Absolutely loved the fresh flavors – the best seafood in
+                                    Tenkasi!</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="image/user2.jpg" alt="User" class="user-image">
+                                <h3 class="name">Stephen</h3>
+                                <i class="feedback">The Hot Fish Grill was a spicy delight – perfectly cooked!</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="image/user3.jpg" alt="User" class="user-image">
+                                <h3 class="name">Liam West</h3>
+                                <i class="feedback">Great service, cozy ambiance, and mouthwatering prawns!</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="image/user4.jpg" alt="User" class="user-image">
+                                <h3 class="name">Sophie Bennett</h3>
+                                <i class="feedback">Every dish was a hit – can’t wait to come back with friends</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="image/user5.jpg" alt="User" class="user-image">
+                                <h3 class="name">Olivia Grace</h3>
+                                <i class="feedback">The Tasty Prawns were absolutely delicious – fresh, juicy, and full
+                                    of flavor!</i>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+                        <!-- navigation buttons -->
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery section -->
+        <section class="gallery-section" id="gallery">
+            <h2 class="section-title">Gallery</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="image/Gallery1.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="image/Gallery2.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="image/Gallery3.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="image/Gallery4.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="image/Gallery5.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="assets/Gallery6.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact section-->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">Contact US</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>24 Madurai main road, Tenkasi, TN 627809</p>
+
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>info@sharkrestaurant.com</p>
+
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(123) 456-78909</p>
+
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Sunday - Saturday: 10:00 AM - 9:00 PM </p>
+
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Friday: 10:00 AM - 3:30 PM </p>
+
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.sharkrestaurant.com</p>
+
+                    </li>
+                </ul>
+
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Your name" class="form-input" required>
+                    <input type="email" placeholder="Your email" class="form-input" required>
+                    <textarea placeholder="Your message" class="form-input" required></textarea>
+                    <button class="submit-button">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer section-->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">@2025 Food Restaurant</p>
+
+                <div class="social-link-list">
+                    <a href="#" class="social-link"> <i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link"> <i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"> <i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy policy</a>
+                    <span class="separator">•</span>
+                    <a href="#" class="policy-link">Refund policy</a>
+                </p>
+            </div>
+        </footer>
+    </main>
+
+</body>
+
+<!-- Linking Swiper script -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- Linking custom script -->
+<script src="rest.js"></script>
+
+</html>
